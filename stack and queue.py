@@ -1,7 +1,7 @@
 
 class Stack:
     '''
-        A stack uses a LIFO policy , the last element to be inserted is the one removed first i.e a stack of plates
+        A stack uses a LIFO(Last In First Out) policy , the last element to be inserted is the one removed first i.e a stack of plates
     '''
     def __init__(self, args = []):
         self.args = args
@@ -20,7 +20,7 @@ print(stack.args)
 
 class Queue:
     '''
-        A queue follows a FIFO policy, the first element inserted is usually the first to be ejected i.e a bank queue
+        A queue follows a FIFO(First In First Out) policy, the first element inserted is usually the first to be ejected i.e a bank queue
     '''
     def __init__(self, args = []):
         self.args = args
