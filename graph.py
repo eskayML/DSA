@@ -1,4 +1,4 @@
-#This Graph implementation uses a dictionary of sets
+#
 class Graph(dict):
   def add(self, v) # add a vertex
   	self[v] = set()
