@@ -6,5 +6,5 @@ They so far include:
 - queues
 - linked lists
 - graphs
-
+- sorting algos
 
